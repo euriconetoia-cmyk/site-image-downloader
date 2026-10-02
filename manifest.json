@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Seletor e Baixador de Imagens",
+  "version": "3.0.0",
+  "description": "Analisa a página, encontra imagens e versões alternativas disponibilizadas pelo site e permite baixar selecionadas ou todas de uma vez.",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Selecionar imagens",
+    "default_popup": "popup.html"
+  }
+}
